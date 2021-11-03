@@ -31,8 +31,8 @@
 
 
     <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
+    <script src="backend/js/html5shiv.js"></script>
+    <script src="backend/js/respond.min.js"></script>
     <![endif]-->
     <link rel="shortcut icon" href="{{('public/frontend/images/favicon.ico')}}">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
@@ -175,7 +175,7 @@
 
                                 <div class="col-sm-12">
                                     <img alt="{{$slide->slider_desc}}"
-                                        src="{{asset('public/uploads/slider/'.$slide->slider_image)}}" height="200"
+                                        src="{{asset('uploads/slider/'.$slide->slider_image)}}" height="200"
                                         width="100%" class="img img-responsive">
 
                                 </div>
@@ -316,15 +316,15 @@
 
 
 
-    <script src="{{asset('public/frontend/js/jquery.js')}}"></script>
-    <script src="{{asset('public/frontend/js/bootstrap.min.js')}}"></script>
-    <script src="{{asset('public/frontend/js/jquery.scrollUp.min.js')}}"></script>
-    <script src="{{asset('public/frontend/js/price-range.js')}}"></script>
-    <script src="{{asset('public/frontend/js/jquery.prettyPhoto.js')}}"></script>
-    <script src="{{asset('public/frontend/js/main.js')}}"></script>
+    <script src="{{asset('frontend/js/jquery.js')}}"></script>
+    <script src="{{asset('frontend/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('frontend/js/jquery.scrollUp.min.js')}}"></script>
+    <script src="{{asset('frontend/js/price-range.js')}}"></script>
+    <script src="{{asset('frontend/js/jquery.prettyPhoto.js')}}"></script>
+    <script src="{{asset('frontend/js/main.js')}}"></script>
 
 
-    <script src="{{asset('public/frontend/js/sweetalert.min.js')}}"></script>
+    <script src="{{asset('frontend/js/sweetalert.min.js')}}"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous"
