@@ -123,18 +123,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <li><a href="{{URL::to('/list-coupon')}}">Danh sách mã giảm giá</a></li>
                     </ul>
                 </li>
-                 <li class="sub-menu">
-                    <a href="javascript:;">
-                        <i class="fas fa-truck-moving"></i>
-                        <span>Vận chuyển</span>
-                    </a>
-                    <ul class="sub">
-                        <li><a href="{{URL::to('/delivery')}}">Quản lý vận chuyển</a></li>
-
-
-
-                    </ul>
-                </li>
                 <li class="sub-menu">
                     <a href="javascript:;">
                         <i class="fas fa-th-list"></i>

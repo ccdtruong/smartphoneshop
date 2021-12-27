@@ -20,15 +20,15 @@ class DeliveryController extends Controller
 	public function select_feeship(){
 		$feeship = Feeship::orderby('fee_id','DESC')->get();
 		$output = '';
-		$output .= '<div class="table-responsive">  
+		$output .= '<div class="table-responsive">
 			<table class="table table-bordered">
-				<thread> 
+				<thread>
 					<tr>
 						<th>Tên thành phố</th>
-						<th>Tên quận huyện</th> 
+						<th>Tên quận huyện</th>
 						<th>Tên xã phường</th>
 						<th>Phí ship</th>
-					</tr>  
+					</tr>
 				</thread>
 				<tbody>
 				';
@@ -45,14 +45,14 @@ class DeliveryController extends Controller
 					';
 				}
 
-				$output.='		
+				$output.='
 				</tbody>
 				</table></div>
 				';
 
 				echo $output;
 
-		
+
 	}
 	public function insert_delivery(Request $request){
 		$data = $request->all();
@@ -66,7 +66,6 @@ class DeliveryController extends Controller
     public function delivery(Request $request){
 
     	$city = City::orderby('matp','ASC')->get();
-
     	return view('admin.delivery.add_delivery')->with(compact('city'));
     }
     public function select_delivery(Request $request){
@@ -90,6 +89,6 @@ class DeliveryController extends Controller
     		}
     		echo $output;
     	}
-    	
+
     }
 }

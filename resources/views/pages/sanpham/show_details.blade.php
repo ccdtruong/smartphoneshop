@@ -83,7 +83,7 @@
         .description h5{
             font-size: 20px;
         }
-        
+
     </style>
     @foreach($product_details as $key => $value)
         <section class="product">
@@ -127,12 +127,12 @@
                         <h5>Thông Tin</h5>
                         <ul>
                             <li><b>Tình trạng:</b> Còn hàng</li>
-                            <li><b>Điều kiện:</b> Mơi 100%</li>
+                            <li><b>Điều kiện:</b> Mới 100%</li>
                             <li><b>Thương hiệu:</b> {{$value->brand_name}}</li>
                             <li><b>Danh mục:</b> {{$value->category_name}}</li>
                         </ul>
                     </div>
-                    
+
                 </div>
             </form>
         </section>
