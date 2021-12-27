@@ -11,9 +11,47 @@ use App\Login;
 use App\Http\Requests;
 use Illuminate\Support\Facades\Redirect;
 use Validator;
-use App\Rules\Captcha;
+use App\Rules\Captcha; 
 class AdminController extends Controller
 {
+    // public function findOrCreateUser($users, $provider){
+    //         $authUser = Social::where('provider_user_id', $users->id)->first();
+    //         if($authUser){
+
+    //             return $authUser;
+    //         }
+          
+    //         $hieu = new Social([
+    //             'provider_user_id' => $users->id,
+    //             'provider' => strtoupper($provider)
+    //         ]);
+
+    //         $orang = Login::where('admin_email',$users->email)->first();
+
+    //             if(!$orang){
+    //                 $orang = Login::create([
+    //                     'admin_name' => $users->name,
+    //                     'admin_email' => $users->email,
+    //                     'admin_password' => '',
+    //                     'admin_phone' => '',
+    //                     'admin_status' => 1
+                        
+    //                 ]);
+    //             }
+
+    //         $hieu->login()->associate($orang);
+                
+    //         $hieu->save();
+
+    //         $account_name = Login::where('admin_id',$hieu->user)->first();
+    //         Session::put('admin_name',$account_name->admin_name);
+    //         Session::put('admin_id',$account_name->admin_id); 
+          
+    //         return redirect('/dashboard')->with('message', 'Đăng nhập Admin thành công');
+
+
+    // }
+    // kiểm tra nếu đăng nhập rồi thì phi vào dashboard không thì phi vào đăng nhập
     public function AuthLogin(){
         $admin_id = Session::get('admin_id');
         if($admin_id){
@@ -54,7 +92,7 @@ class AdminController extends Controller
                 Session::put('message','Mật khẩu hoặc tài khoản bị sai.Làm ơn nhập lại');
                 return Redirect::to('/admin');
         }
-
+       
 
     }
     // đăng xuất xóa session
