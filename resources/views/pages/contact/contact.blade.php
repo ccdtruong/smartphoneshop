@@ -80,9 +80,9 @@ h6
 <h3>LIÊN HỆ VỚI CHÚNG TÔI</h3>
 <h5>Khiêm Táo Store</h5>
 <h6>Chuyên cung cấp những loại điện thoại tốt nhất hiện nay</h6>
-<h5>Địa chỉ : 295 Minh Khai, Bắc Từ Liêm, Hà Nội</h5>
-<h5>Hotline: 0987 654 321</h5>
-<h5>Mail : nhom2@example.com</h5>
+<h5>Địa chỉ : Số 298 đường Cầu Diễn, quận Bắc Từ Liêm, Hà Nội</h5>
+<h5>Hotline: 0363448738</h5>
+<h5>Mail : khiemnguyenduy123@gmail.com</h5>
     <h3>HOẶC GỬI MAIL</h3>
 <form action="" id="form1">
 <input type="text" id="fname" name="fname" placeholder="Họ tên"><br>

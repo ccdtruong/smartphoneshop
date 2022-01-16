@@ -50,8 +50,8 @@
                         <div class="col-sm-6">
                             <div class="contactinfo">
                                 <ul class="nav nav-pills">
-                                    <li><a href="#"><i class="fa fa-phone"></i>0987 654 321</a></li>
-                                    <li><a href="#"><i class="fa fa-envelope"></i> nhom2@example.com</a></li>
+                                    <li><a href="#"><i class="fa fa-phone"></i>0363448738</a></li>
+                                    <li><a href="#"><i class="fa fa-envelope"></i> khiemnguyenduy123@gmail.com</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -236,14 +236,14 @@
                     <a href="#">Contact</a>
                 </p>
 
-                <p class="footer-company-name" style="color: white">Copyright 2021 Design Nhom 2</p>
+                <p class="footer-company-name" style="color: white">Copyright 2021 Design Khiêm Táo</p>
             </div>
 
             <div class="footer-center">
 
                 <div>
                     <i class="fa fa-map-marker"></i>
-                    <p><span>295 Minh Khai</span> Bắc Từ Liêm, Hà Nội</p>
+                    <p><span>Số 298 đường Cầu Diễn</span> Bắc Từ Liêm, Hà Nội</p>
                 </div>
 
                 <div>
@@ -253,7 +253,7 @@
 
                 <div>
                     <i class="fa fa-envelope"></i>
-                    <p><a href="mailto:nhom2qlda@example.com" style="color: white">nhom2qlda@example.com</a></p>
+                    <p><a href="mailto:khiemnguyenduy123@gmail.com" style="color: white">khiemnguyenduy123@gmail.com</a></p>
                 </div>
 
             </div>
